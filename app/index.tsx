@@ -24,9 +24,9 @@ const stories: Story[] = [
     img: "https://picsum.photos/seed/me/200",
     isMine: true,
   },
-  { id: "2", name: "sukritishresthaa", img: "https://picsum.photos/seed/a/200" },
-  { id: "3", name: "sanjjyaa", img: "https://picsum.photos/seed/b/200" },
-  { id: "4", name: "assmiitaaaaa", img: "https://picsum.photos/seed/c/200" },
+  { id: "2", name: "person 1", img: "https://picsum.photos/seed/a/200" },
+  { id: "3", name: "person 2", img: "https://picsum.photos/seed/b/200" },
+  { id: "4", name: "unknown", img: "https://picsum.photos/seed/c/200" },
   { id: "5", name: "randomfriend", img: "https://picsum.photos/seed/d/200" },
 ];
 
@@ -43,7 +43,7 @@ export default function Index() {
               <Text style={styles.topIcon}>＋</Text>
             </TouchableOpacity>
 
-            <Text style={styles.logoText}>Instagram</Text>
+            <Text style={styles.logoText}>MiliGram</Text>
 
             <TouchableOpacity style={styles.topIconBtn}>
               <Text style={styles.topIcon}>♡</Text>
